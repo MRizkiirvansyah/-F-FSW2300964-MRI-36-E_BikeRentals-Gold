@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!--Bootsrap CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>EcoSpirit E-Bike Rent</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">EcoSpirit E-Bike Rentals</a>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Akhir Navbar -->
+
+    <section class="jumbotron">
+
+        <div class="container">
+
+          <div class="row justify-content-center text-center">
+
+            <div class="col-mb-3">                 
+
+              <img src="./img/EcoSPIRIT TO CHANGE.jpg" class="img-fluid" alt="Responsive image" width="auto"/>
+
+              <h1 class="display-4 fw-bold"><br> About Us </h1>
+
+            </div>
+            
+          </div>
+            <p class="lead">Halo , Welcome to EcoSpirit E-Bike Rentals This website is a place for you to rent an electric motorbike 
+            more easily. The spirit to save the world is our goal by presenting environmentally friendly vehicles that are very reliable.</p>
+            <p class="lead">Technologies for building this website include Express.js, Node.js, Knex, PostgreSQL, PG (node-postgres), Nodemon, Bootstrap, and Postman</p>
+            <p class="lead">This Website have CRUD API. CRUD API is an interface that provides the following fundamental operations for managing data or resources:</p>
+            <li class="lead">Create (POST): Allows the creation of new resources in the system.</;>
+            <li class="lead">Read (GET): Enables the retrieval of data, including single resources or collections.</li>
+            <li class="lead">Update (PUT/PATCH): Supports the modification of existing resources. PUT replaces the entire resource, while PATCH updates specific fields.</li>
+            <li class="lead">Delete (DELETE): Permits the removal of resources from the system.</;>    
+         
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Akhir Jumbotron -->
+
+    <!--Card-->
+    <section class="p-5">
+        <h1 class="text-center "> API Documentation </h1>
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/ShowALL.jpg" class="card-img-top" width="auto">
+                        <div class="card-body">
+                          <h5 class="card-title">Show All</h5>
+                          <ul>HTTP Method : GET</ul>
+                          <ul>Endpoint : /ebike_rentals</ul>
+                          <ul>Parameters: None</ul>
+                          <ul>Response: Success</ul>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/Show by id.jpg" class="card-img-top" width="auto">
+                        <div class="card-body">
+                          <h5 class="card-title">Show By Id</h5>
+                          <ul>HTTP Method : GET</ul>
+                          <ul>Endpoint : /ebike_rentals/:id</ul>
+                          <ul>Parameters: Id</ul>
+                          <ul>Response: Success</ul>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/Create Data.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Create</h5>
+                          <ul>HTTP Method : POST</ul>
+                          <ul>Endpoint : /ebike_rentals</ul>
+                          <ul>Parameters: None</ul>
+                          <ul>Response: Success</ul>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/update.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Update</h5>
+                          <ul>HTTP Method : PUT</ul>
+                          <ul>Endpoint : /ebike_rentals/:Id</ul>
+                          <ul>Parameters: Id</ul>
+                          <ul>Response: Success</ul>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./img/Delete.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Delete</h5>
+                          <ul>HTTP Method : GET</ul>
+                          <ul>Endpoint : /ebike_rentals/:id</ul>
+                          <ul>Parameters: Id</ul>
+                          <ul>Response: Success</ul>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Akhir Card-->
+
+    <!-- Desain -->
+
+    <section id="design">
+
+        <div class="container">
+  
+          <div class="row text-center mb-3">
+  
+            <div class="col mb-3">
+  
+              <h2>Gallery</h2>
+  
+            </div>
+  
+            <div class="row justify-content-center">
+  
+              <div class="col-md-4 mb-3">
+  
+                  <div class="card">
+  
+                    <img src="./img/SS1.png "  >
+  
+                  </div> 
+  
+              </div>
+  
+              <div class="col-md-4 mb-3">
+  
+                  <div class="card">
+  
+                    <img src="./img/SS2.png"  >
+  
+                  </div> 
+  
+              </div>
+  
+              <div class="col-md-4 mb-3">
+  
+                  <div class="card">
+  
+                    <img src="./img/SS4.png" >
+ 
+                  </div> 
+  
+              </div>
+  
+              <div class="col-md-4 mb-3">
+  
+                  <div class="card">
+  
+                    <img src="./img/SS5.png" >
+ 
+                  </div> 
+  
+              </div>
+  
+              <div class="col-md-4 mb-3">
+  
+                  <div class="card">
+  
+                    <img src="./img/SS6.png" >
+  
+  
+                  </div> 
+  
+              </div>     
+
+              <div class="col-md-4 mb-3">
+  
+                <div class="card">
+
+                  <img src="./img/SS7.png" >
+
+
+                </div> 
+
+            </div>      
+  
+            </div>                   
+  
+          </div>
+  
+        </div>
+   
+      </section>
+  
+  <!-- Akhir Desain -->
+  <!-- Footer -->
+
+  <footer class="footer text-black p-3 text-center">
+
+    <div class="container">
+
+      <div class="row justify-content-center">
+
+          <div class="col">
+
+              @Copyright Muhammad Rizki Irvansyah FS 36 Gold Challenge Binar Academy
+
+          </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- Akhir Footer -->
+
+    <!--JQuery-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
